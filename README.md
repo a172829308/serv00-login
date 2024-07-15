@@ -20,14 +20,14 @@
 
 1. **创建 Telegram Bot**
     - 在 Telegram 中找到 `@BotFather`，创建一个新 Bot，并获取 API Token。
-    - 获取到你的 Chat ID 方法一，在[一休技术交流群](https://t.me/yxjsjl)里发送`/id@KinhRoBot`获取，返回用户信息中的`ID`就是Chat ID
+    - 获取到你的 Chat ID 方法一，在[一休技术交流群](https://t.me/yxjsjl)里发送`/id@KinhRoBot`获取，返回用户信息中的`ID`就是Chat ID    
     - 获取到你的 Chat ID 方法二，可以通过向 Bot 发送一条消息，然后访问 `https://api.telegram.org/bot<your_bot_token>/getUpdates` 找到 Chat ID。
 
 2. **配置 GitHub Secrets**
     - 转到你 fork 的仓库页面。
     - 点击 `Settings`，然后在左侧菜单中选择 `Secrets`。
     - 添加以下 Secrets：
-        - `ACCOUNTS_JSON`: 包含账号信息的 JSON 数据。例如：
+        - `ACCOUNTS_JSON`: 包含账号信息的 JSON 数据。例如：    
         - 
           ```json
           [
@@ -79,4 +79,4 @@
 - **保密性**: Secrets 是敏感信息，请确保不要将它们泄露到公共代码库或未授权的人员。
 - **更新和删除**: 如果需要更新或删除 Secrets，可以通过仓库的 Secrets 页面进行管理。
 
-通过以上步骤，你就可以成功将代码 fork 到你的仓库下并运行它了。如果需要进一步的帮助或有其他问题，请随时告知！
+通过以上步骤，你就可以成功将代码 fork 到你的仓库下并运行它了。如果需要进一步的帮助或有其他问题，请随时告知
